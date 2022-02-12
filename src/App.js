@@ -1,12 +1,7 @@
-import { PrimaryButton } from "./components/atoms/button/PrimaryButton";
-import { SecondaryButton } from "./components/atoms/button/SecondaryButton";
+import { Router } from "./router/Router";
+
 import "./styles.css";
 
 export default function App() {
-  return (
-    <div className="App">
-      <PrimaryButton children={"push"} />
-      <SecondaryButton children={"search"} />
-    </div>
-  );
+  return <Router />;
 }
